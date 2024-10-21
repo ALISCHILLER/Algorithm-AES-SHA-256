@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zLv/re/FFgTpGUvqoSlYPx8OAI02JDI2RstKwSOYSHBCQgHbH6u+IHZN2Gz8x/xO+7zA+vv/+uKJdkL3pxm1HQ==",
+  "success": false,
+  "projectFilePath": "E:\\project-zar\\custom\\hash\\c#\\MyBCryptApp\\MyBCryptApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "libraryId": "BCrypt.Net-Next"
+    }
+  ]
+}
