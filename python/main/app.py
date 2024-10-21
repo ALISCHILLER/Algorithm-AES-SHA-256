@@ -26,8 +26,7 @@ def decrypt_aes(encrypted_data, secret_key):
 
 # تابعی برای هش کردن نام کاربری با استفاده از bcrypt
 def hash_username(username):
-     # استفاده از نمک ثابت
-    salt = "$2a$10$abcdefghijklmno"  # نمک ثابت
+    salt = "$2a$10$abcdefghijklmno"  #  ثابت
     return bcrypt.hashpw(username.encode() + salt.encode(), bcrypt.gensalt(10)).decode()
     
     # return bcrypt.hashpw(username.encode(), bcrypt.gensalt(10)).decode()  # هش کردن نام کاربری
